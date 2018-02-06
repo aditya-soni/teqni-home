@@ -44,7 +44,7 @@ export class AuthService {
             }
         )
         .catch(
-            error=>console.log(error.message)
+            error=>alert('Please enter correct details.')
         )
     }
 
